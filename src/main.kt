@@ -1,26 +1,16 @@
 fun main(){
-    var name="AkiraChix"
-    println(name[1].toString()+name[3]+name[4])
-    ageName()
-    string()
-    name
-    name()
+    add(23,45)
+identity("Nillan Bright")
+greeting("Hi my name is Blessing")
 }
-fun ageName(){
-    var name='X'
-    var age= 'Y'
-    println("Hi my name is $name and I am $age years old")
+fun add(a:Int,b:Int){
+    var sum =a+b
+    println(sum)
 }
-fun string(){
-    var statement="coding in kotlin is very fun"
-    println(statement.length)
-}
+fun identity(text:String){
 
-fun name(){
-    var identity="Respah Wakhungu"
-    if (identity=="Respah Wakhungu")
-        println("That's me")
-    else
-        println("I dont know who that is")
-    println(identity)
+    println(text)
+}
+fun greeting(sentence:String){
+    println(sentence)
 }
